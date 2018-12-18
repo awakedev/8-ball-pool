@@ -18,6 +18,9 @@ Game.prototype.mainLoop = function  (){
     PoolGame.gameWorld.update();
     PoolGame.gameWorld.draw();
 
+    Mouse.reset();
+
+
     requestAnimationFrame(PoolGame.mainLoop);
 
 }
